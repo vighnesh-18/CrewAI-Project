@@ -1,0 +1,18 @@
+# Core CrewAI and dependencies
+crewai[tools]
+google-generativeai
+openai
+anthropic
+
+# PDF processing
+PyPDF2
+pypdf
+pdfplumber
+
+# Web framework
+flask
+flask-cors
+
+# Additional utilities
+python-dotenv
+requests
