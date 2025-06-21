@@ -41,7 +41,6 @@ A lightning-fast AI-powered Netflix 10-K financial document analyzer with a mode
 
 ```bash
 git clone <repository-url>
-cd Agent1
 ```
 
 ### 2. Environment Configuration
@@ -127,7 +126,7 @@ GET /sample-questions
 |----------|-------------|---------|
 | `GOOGLE_API_KEY` | Google Gemini API Key | Required |
 | `FLASK_PORT` | Backend server port | 5000 |
-| `REACT_APP_API_URL` | Frontend API URL | http://localhost:5000 |
+| `REACT_APP_API_URL` | Frontend API URL | http://localhost:5173 |
 | `CACHE_ENABLED` | Enable response caching | true |
 | `MAX_CHUNK_SIZE` | PDF chunk size | 4000 |
 
@@ -193,7 +192,6 @@ For production:
 ## 📁 File Structure
 
 ```
-Agent1/
 ├── backend/
 │   ├── app.py                 # Main Flask application
 │   ├── knowledge/
